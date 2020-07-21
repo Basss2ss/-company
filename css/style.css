@@ -42,7 +42,7 @@ header {
 }
 .header__btn:before {
     content: "\f0b1";
-    font-family: 'icomoon';
+    font-family: 'icomoon', sans-serif;
     position: absolute;
     left: 22px;
     color: #1b1b1b;
@@ -65,7 +65,7 @@ header {
 }
 .header__phone:before {
     content: "\f095";
-    font-family: 'icomoon';
+    font-family: 'icomoon', sans-serif;
     position: absolute;
     left: 0;
     color: #ffc222;
@@ -75,7 +75,7 @@ header {
 }
 .header__email:before {
     content: "\f003";
-    font-family: 'icomoon';
+    font-family: 'icomoon', sans-serif;
     position: absolute;
     left: 0;
     color: #ffc222;
@@ -161,7 +161,7 @@ header {
 }
 .default-btn:after {
     content: "\f105";
-    font-family: 'icomoon';
+    font-family: 'icomoon', sans-serif;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -193,7 +193,7 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: 'icomoon';
+    font-family: 'icomoon', sans-serif;
     color: #fff;
     
 
@@ -399,6 +399,7 @@ header {
     margin-bottom: 45px;
 }
 .form__box-inner button {
+    cursor: pointer;
     background-color: transparent;
     color: #282828;
     float: right;
@@ -440,7 +441,7 @@ header {
     transform: translateX(-50%);
 }
 .advantages__title:after {
-    font-family: 'icomoon';
+    font-family: 'icomoon', sans-serif;
     content: "\f00c";
     font-size: 14px;
     position: absolute;
@@ -472,7 +473,7 @@ header {
     position: relative;
 }
 .news__slider:before {
-    font-family: 'icomoon';
+    font-family: 'icomoon', sans-serif;
     content: "\f10e";
     color: #fff;
     font-size: 16px;
@@ -532,7 +533,7 @@ header {
 
 }
 .news__slider-author {
-    list-style: 0.1px;
+    list-style: none;
     color: #212020;
     font-family: 'Roboto', sans-serif;
 }
@@ -609,7 +610,7 @@ header {
     position: relative;
 }
 .footer__list a:before {
-    font-family: 'icomoon';
+    font-family: 'icomoon', sans-serif;
     content: "\f003";
     position: absolute;
     left: 0;
