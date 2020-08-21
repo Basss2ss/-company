@@ -17,7 +17,7 @@ body {
     font-size: 14px;
     line-height: 18px;
     color: #5e5e5e;
-    /*font-family: 'Roboto', sans-serif; */ 
+    
 }
 .wrap {
     max-width: 1170px;
@@ -42,7 +42,7 @@ header {
 }
 .header__btn:before {
     content: "\f0b1";
-    font-family: 'icomoon', sans-serif;
+    font-family: 'icomoon';
     position: absolute;
     left: 22px;
     color: #1b1b1b;
@@ -65,7 +65,7 @@ header {
 }
 .header__phone:before {
     content: "\f095";
-    font-family: 'icomoon', sans-serif;
+    font-family: 'icomoon';
     position: absolute;
     left: 0;
     color: #ffc222;
@@ -75,7 +75,7 @@ header {
 }
 .header__email:before {
     content: "\f003";
-    font-family: 'icomoon', sans-serif;
+    font-family: 'icomoon';
     position: absolute;
     left: 0;
     color: #ffc222;
@@ -109,7 +109,7 @@ header {
     display: none;
 }
 .slider {
-    background-image: url("../img/slaider-fon.jpg");
+    background-image: url("../img/slaider-fon-min.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -161,7 +161,7 @@ header {
 }
 .default-btn:after {
     content: "\f105";
-    font-family: 'icomoon', sans-serif;
+    font-family: 'icomoon';
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -193,7 +193,7 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: 'icomoon', sans-serif;
+    font-family: 'icomoon';
     color: #fff;
     
 
@@ -310,7 +310,7 @@ header {
     margin-right: 60px;
 }
 .about {
-    background-image: url("../img/about-fon.jpg");
+    background-image: url("../img/about-fon-min.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -343,7 +343,7 @@ header {
 }
 .form__inner {
     padding-bottom: 40px;
-    background-image: url("../img/fotm-img.png");
+    background-image: url("../img/fotm-img-min.webp");
     min-height: 460px;
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -399,14 +399,13 @@ header {
     margin-bottom: 45px;
 }
 .form__box-inner button {
-    cursor: pointer;
     background-color: transparent;
     color: #282828;
     float: right;
 }
 .advantages {
     padding: 55px 0 40px;
-    background-image: url("../img/adv-fon.jpg");
+    background-image: url("../img/adv-fon-min.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -441,7 +440,7 @@ header {
     transform: translateX(-50%);
 }
 .advantages__title:after {
-    font-family: 'icomoon', sans-serif;
+    font-family: 'icomoon';
     content: "\f00c";
     font-size: 14px;
     position: absolute;
@@ -473,7 +472,7 @@ header {
     position: relative;
 }
 .news__slider:before {
-    font-family: 'icomoon', sans-serif;
+    font-family: 'icomoon';
     content: "\f10e";
     color: #fff;
     font-size: 16px;
@@ -533,7 +532,7 @@ header {
 
 }
 .news__slider-author {
-    list-style: none;
+    list-style: 0.1px;
     color: #212020;
     font-family: 'Roboto', sans-serif;
 }
@@ -610,7 +609,7 @@ header {
     position: relative;
 }
 .footer__list a:before {
-    font-family: 'icomoon', sans-serif;
+    font-family: 'icomoon';
     content: "\f003";
     position: absolute;
     left: 0;
