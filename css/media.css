@@ -101,12 +101,14 @@
     }
 }
 @media (max-width: 700px) {
+    
     .header__btn {
         float: none;
         display: inline-block;
     }
     .header__contacts {
         text-align: center;
+        display: none;
     }
     .header__btn:before {
         display: none;
